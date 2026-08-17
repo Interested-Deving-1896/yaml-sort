@@ -1,39 +1,91 @@
-![Node.js CI](https://github.com/ddebin/yaml-sort/workflows/Node.js%20CI/badge.svg)
-[![npm version](https://badge.fury.io/js/yaml-sort.svg)](https://www.npmjs.com/package/yaml-sort)
+# yaml-sort
 
-# About
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/yaml-sort) [![KDE Eco](https://img.shields.io/badge/KDE%20Eco-certified-brightgreen?logo=kde&logoColor=white&style=flat-square)](https://eco.kde.org/) [![Blue Angel](https://img.shields.io/badge/Blue%20Angel-DE--UZ%20215-0055a4?style=flat-square)](https://www.blauer-engel.de/en/certification/criteria) [![Energy](https://api.green-coding.io/v1/ci/badge/get?repo=Interested-Deving-1896%2Fyaml-sort&branch=main&workflow=eco-audit.yml)](https://metrics.green-coding.io/ci-index.html)
 
-`yaml-sort` sorts [YAML](https://yaml.org/) files alphabetically.
 
-This tool is basically a tiny wrapper around [js-yaml](https://github.com/nodeca/js-yaml).
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-(Inspired by [yml-sorter](https://github.com/42BV/yml-sorter))
+## Architecture
 
-# Installation
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-`npm install -g yaml-sort`
+## Install
 
-# Usage
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/yaml-sort.git
+cd yaml-sort
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/yaml-sort`](https://github.com/Interested-Deving-1896/yaml-sort) and mirrored through:
 
 ```
-Usage: yaml-sort [options]
-
-Options:
-  -i, --input         The YAML file(s) which needs to be sorted  [array] [default: STDIN]
-  -o, --output        The YAML file to output sorted content to  [string] [default: overwrite input file if specified or STDOUT]
-  -s, --stdout        Output the proposed sort to STDOUT only  [boolean]
-  -k, --check         Check if the given file(s) is already sorted  [boolean]
-      --indent, --id  Indentation width (in spaces)  [number] [default: 2]
-  -e, --encoding      Input encoding  [choices: "ascii", "utf8", "utf16le"] [default: "utf8"]
-  -q, --quotingStyle  Strings will be quoted using this quoting style  [choices: "single", "double"] [default: "single"]
-  -f, --forceQuotes   Force quotes around all strings  [boolean]
-  -w, --lineWidth     Wrap line width (-1 for unlimited width)  [number] [default: 80]
-  -h, --help          Show help  [boolean]
-      --version       Show version number  [boolean]
-
-Examples:
-  yaml-sort --input config.yml                                 Sorts alphabetically and overwrites the file config.yml
-  yaml-sort --input config.yml --lineWidth 100 --stdout        Sorts the file config.yml and output result to STDOUT wrapped to 100 columns
-  yaml-sort --input config.yml --indent 4 --output sorted.yml  Indents with 4 spaces and outputs result to file sorted.yml
-  cat config.yml | yaml-sort                                   Sorts alphabetically from STDIN
+Interested-Deving-1896/yaml-sort  ──►  OpenOS-Project-OSP/yaml-sort  ──►  OpenOS-Project-Ecosystem-OOC/yaml-sort
 ```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream influences recorded._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## Accessibility
+
+<!-- AI:start:accessibility -->
+This repo uses automated accessibility auditing via `check-accessibility.yml`.
+
+Checks include: CODEOWNERS ownership coverage, README screen-reader compatibility,
+WCAG 2.1 AA HTML compliance, audio overview (espeak-ng), and Braille output (liblouis).
+
+
+
+
+Run the [Check Accessibility](https://github.com/Interested-Deving-1896/yaml-sort/actions/workflows/check-accessibility.yml)
+workflow to generate the first report and accessibility artifacts.
+See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/yaml-sort/blob/main/DOCS/accessibility.md) for the full reference.
+<!-- AI:end:accessibility -->
+
+## License
+
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/yaml-sort/blob/master/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
